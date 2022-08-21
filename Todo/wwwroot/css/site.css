@@ -1,0 +1,179 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    /* background-color:#BBE1FA;*/
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 60px;
+    background-color: #f8f9fa;
+    /* Vertically center the text there */
+}
+
+/*Body styling*/
+
+
+.display-4 {
+    font-family: verdana;
+    font-weight:600;
+    width:70%;
+    font-size:2.5rem;
+    margin:auto;
+    margin-top:40px;
+
+}
+
+h2 {
+    font-family: verdana;
+    font-size: 2rem;
+    line-height: 1.5;
+    width: 90%;
+    font-weight:600;
+}
+.first-para {
+    font-family: verdana;
+    font-size: 1.2rem;
+    width:55%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.second-para {
+    font-family: verdana;
+    font-size: 1.2rem;
+    
+}
+button {
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: #e44232;
+    border:none;
+    color:#fff;
+    font-weight:600;
+    text-decoration:none;
+    
+}
+.first-image {
+    width:100%;
+    margin-top:50px;
+    border-radius:5px;
+    height:600px;
+
+}
+.second-image{
+    width:300px;
+    height:400px;
+    border-radius:15px;
+
+}
+.third-image{
+    height:500px;
+    width:400px;
+    border-radius:15px;
+}
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:100px;
+}
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:50px;
+    
+}
+/*Features section*/
+.features {
+    padding: 50px 50px;
+}
+.features-img{
+    width:200px;
+    height:100px;
+}
+/** pricing section**/
+#pricing {
+    padding: 50px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.btn-card {
+    display: block;
+    width: 100%;
+}
+.last-section{
+    text-align:center;
+    width:100%;
+    margin-bottom:50px;
+}
+
+
